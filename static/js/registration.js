@@ -22,7 +22,7 @@ function App(){
         }
 
         // Отправка данных на сервер для регистрации
-        fetch('http://127.0.0.1:5000/register', {
+        fetch('http://16.171.29.143:8000/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
